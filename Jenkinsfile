@@ -5,7 +5,10 @@ pipeline {
       steps {
         echo 'hello world'
       }
-    }
 
+      steps {
+        echo '输出文字2'
+      }
+    }
   }
 }
