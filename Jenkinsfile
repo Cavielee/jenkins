@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('阶段2') {
+    stage('stage2') {
       steps {
-        echo '阶段2'
+        echo env.BRANCH_NAME
       }
     }
   }
