@@ -5,9 +5,11 @@ pipeline {
       steps {
         echo 'hello world'
       }
+    }
 
+    stage('阶段2') {
       steps {
-        echo '输出文字2'
+        echo '阶段2'
       }
     }
   }
